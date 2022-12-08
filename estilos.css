@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(156, 116, 30);
+}
+
+.contenedor{
+    display: flex;
+
+}
+
+.imagen{
+
+    float: left;
+    margin-right: 60;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+ul{
+    list-style: none;
+}
